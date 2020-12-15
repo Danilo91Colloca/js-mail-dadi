@@ -25,9 +25,8 @@ if (!mailChecked) { //se mailChecked è diverso dalla lista
   document.getElementById('button').innerHTML = 'tasto disabilitato'
 
 }else {
-  /* se la mail corrisponde msg di benvenuto con nome utente personalizzato
-  e il bottone nell'HTML è abilitato
-  */
+  // se la mail corrisponde msg di benvenuto  e il bottone nell'HTML è abilitato
+
   if (mailChecked) {
     document.getElementById('welcome-msg').innerHTML = 'Ciao iniziamo a giocare!'
   }
@@ -58,7 +57,7 @@ if (!mailChecked) { //se mailChecked è diverso dalla lista
     if (equal) {
       document.getElementById('result').innerHTML = 'SIAMO PARI!!!'
     }
-    if (winner) {
+    if (loose) {
       document.getElementById('result').innerHTML = 'HAI PERSO!!!'
     }
   }
