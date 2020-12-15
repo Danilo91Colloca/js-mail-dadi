@@ -22,7 +22,7 @@ for (var i = 0; i < mailValide.length; i++) {
 if (!mailChecked) { //se mailChecked è diverso dalla lista
   alert('Errore la mail inserita non è valida!')
   //se la mail non corrisponde appare "error msg" e il gioco non funziona
-  document.getElementById('button').innerHTML = 'tasto disabilitato'
+  document.getElementById('button').innerHTML = 'game over'
 
 }else {
   /* se la mail corrisponde, il msg di benvenuto è personalizzato con il nome utente e il bottone nell'HTML è abilitato */
